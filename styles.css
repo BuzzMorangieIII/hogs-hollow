@@ -1,0 +1,196 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("images/forest-hollow.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#hero {
+    background-image: url("images/akadi-temple.jpg");
+    background-size: cover;
+}
+
+
+h1 h2 h3 h4 p {
+    width: 160px;
+    text-shadow: 0 0 2px black;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    height:600px;
+    width: 600px;
+    border: 2px dotted #285337;
+    background-color: grey;
+    border-radius: 30px;
+}
+
+#welcome {
+    margin: 60px 0 0 20px;
+    text-align: start;
+    width: 280px;
+    color: #D81159;
+    font-size: 50px;
+}
+
+#cuisine {
+    margin: 250px 0 0 11px;
+    background-color: rgba(040, 83, 55, 0.7);
+    width: 580px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.hollow-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.hollow-p {
+    width: 100px;
+}
+
+#activities {
+    background-color: rgba(040, 83, 55, 0.7);
+    height: 300px;
+}
+
+.section-objects {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+#farts {
+    background-image: url("images/farts.jpg");
+}
+
+#growth {
+    background-image: url("images/growth.gif");
+}
+
+#jylo {
+    background-image: url("images/jylo.gif");
+}
+
+#rules {
+    background-image: url("images/parchment.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px dotted #230007;
+    color: black;
+    border-radius: 30px 30px 0 0;
+    height: 400px;
+    margin-bottom: 0;
+    font-family: Cedarville Cursive, cursive;
+}
+
+#rule-header {
+    margin-top: 60px;
+    font-family: Cascadia mono;
+}
+
+#rule-clarity {
+    margin-top: 0;
+    height: 200px;
+    border-radius: 0;
+    background-image: url("images/boards.jpg");
+    background-size: cover;
+}
+
+#rc-words {
+    padding-top: 30px;
+}
+
+#fascinating {
+    background-color: rgba(040, 83, 55, 0.7);
+    height: 700px;
+}
+
+.hollow-p2 {
+    width: 200px;
+}
+
+#tree-tower {
+    background-image: url("images/tree-tower.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+#reclaim {
+    background-image: url("images/reclaim.jpg");
+    width: 200px;
+    height: 200px;
+}
+
+#nightmare {
+    background-image: url("images/nightmare.gif");
+    width: 200px;
+    height: 200px;
+}
+
+#eichseele {
+    background-image: url("images/eichseele.webp");
+    width: 200px;
+    height: 200px;
+}
+
+#guide {
+    height: 350px;
+    background-color: #F9E8D0;
+    border: 2px dotted black;
+    color: black
+}
+
+#guide-card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.ding-ding {
+    height: 100px;
+    width: 230px;
+    background-image: url("./images/ding-ding.png");
+    background-size: cover;
+    justify-content: start;
+    padding: 20px 20px;
+}
+
+.ding-ding:hover {
+    background-image: url("./images/ding-ding-small-john.jpg");
+}
+
+#guides {
+    width: 230px;
+}
+
+#guide-sep {
+    padding-left: 60px;
+}
+
+#guide-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
